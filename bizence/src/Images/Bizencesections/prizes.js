@@ -61,7 +61,7 @@ class PricingSection extends React.Component {
     return (
       <section id='pricing-section'>
       
-        <h2>50,000 Prize Pool 🏆and Goodies🎁 </h2>
+        <h2>30,000 Prize Pool 🏆and 20,000 Goodies🎁 </h2>
       
        
         {/* <div className="track-selection">

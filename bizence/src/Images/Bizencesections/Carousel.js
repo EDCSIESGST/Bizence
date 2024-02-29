@@ -34,7 +34,7 @@ const Carousel = () => {
             centeredSlides={true}
         
             slidesPerView={'3'}
-            spaceBetween={50}
+            spaceBetween={100}
             coverflowEffect={{
               rotate: 0,
               stretch: 0,
