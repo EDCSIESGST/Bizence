@@ -1,0 +1,229 @@
+/* PricingSection.css */
+
+#pricing-section {
+    padding: 3rem 0;
+    max-width: min(87.5rem, 90%);
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #pricing-section h2 {
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 1.563rem;
+    color: #fff;
+    font-family: var(--default);
+  }
+  
+  #pricing-section p {
+    font-size: 1rem;
+    max-width: 50rem;
+    margin-inline: auto;
+    color:#a3b4d9;
+  }
+  
+  #pricing-section .pricing-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    margin-top: 5em;
+  }
+  
+  #pricing-section .pricing-card {
+    flex: 0 1 18.75rem;
+    background:#0c1d3e;
+    text-align: center;
+    padding: 2.5em 2em;
+    border-radius: 0.625rem;
+    position: relative;
+    cursor: pointer;
+   
+  }
+  
+  #pricing-section .pricing-card li {
+    text-transform: capitalize;
+    font-size: 1rem;
+  }
+  
+  #pricing-section .pricing-card .ribbon {
+    position: absolute;
+    width: 2.5rem;
+    height: 6.875rem;
+    background:white;
+    top: -0.625rem;
+    left: 1.563rem;
+    transition: opacity 0.3s ease-in;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  #pricing-section .pricing-card .ribbon > div {
+    transform: rotate(-90deg);
+    color:rgb(0, 255, 247);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+  }
+  
+  #pricing-section .pricing-card .ribbon svg {
+    width: 0.625rem;
+    color: #1b1b1b;
+  }
+  
+  #pricing-section .pricing-card .ribbon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -0.563rem;
+    border-left: 0.313rem solid #b62828;
+    border-right: 0.313rem solid transparent;
+    border-top: 0.313rem solid transparent;
+    border-bottom: 0.313rem solid #b62828;
+  }
+  
+  #pricing-section .pricing-card .ribbon::after {
+    content: "";
+    position: absolute;
+    bottom: -0.063rem;
+    left: 0;
+    border-left: 1.25rem solid transparent;
+    border-right: 1.25rem solid transparent;
+    border-top: 1.25rem solid transparent;
+    border-bottom: 1.25rem solid #1b1b1b;
+  }
+  
+  #pricing-section .pricing-card hr {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 1.875rem;
+    margin-bottom: 1.563rem;
+    visibility: visible;
+  }
+  
+  #pricing-section .pricing-card hr.first {
+    background:white;
+    height: 0.156rem;
+    border: none;
+  }
+  
+  #pricing-section .pricing-card hr.second {
+    background:white;
+    height: 0.25rem;
+    border: none;
+  }
+  
+  #pricing-section .pricing-card h3 {
+    color:white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.063rem;
+  }
+  
+  #pricing-section .pricing-card .card-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color:whitesmoke;
+    margin: 1.563rem 0;
+  }
+  
+  #pricing-section .pricing-card .card-price span {
+    color:white;
+    font-size: 1.1rem;
+    margin-right: 0.625rem;
+  }
+  
+  #pricing-section .pricing-card .card-btn {
+    background: #d6d4d3;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem 1.875rem;
+    display: inline-block;
+    transition: opacity 0.3s ease-in;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  #pricing-section .pricing-card.active {
+    background:rgb(7, 125, 146);
+    color: #a3a3a3;
+  }
+  
+  #pricing-section .pricing-card.active li {
+    font-size: 1.063rem;
+  }
+  
+  #pricing-section .pricing-card.active .ribbon {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #pricing-section .pricing-card.active:hover .card-btn {
+    background: #fff;
+  }
+  
+  #pricing-section .pricing-card.active hr {
+    opacity: 0;
+    margin: 0;
+    visibility: hidden;
+  }
+  
+  #pricing-section .pricing-card.active h3 {
+    color: #d6d4d3;
+  }
+  
+  #pricing-section .pricing-card.active .card-price span {
+    color: #d6d4d3;
+  }
+  
+  #pricing-section .pricing-card.active .card-price {
+    color: #fff;
+  }
+  
+  #pricing-section .pricing-card.active .card-btn {
+    background: #d6d4d3;
+    color: #1b1b1b;
+    opacity: 1;
+    margin-top: 2.813rem;
+    visibility: visible;
+  }
+  #pricing-section .track-selection {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap size as needed */
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+  }
+  
+  #pricing-section .track-selection button {
+    background-color:rgb(19, 150, 182);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #pricing-section .track-selection button:hover {
+    background-color: #0c1d3e;
+  }
+  
+  #pricing-section .track-selection button:focus {
+    outline: none;
+  }
+  @media screen and (max-width: 600px){
+      
+  #pricing-section h2{
+    font-size: 24px;
+    font-weight: 800;
+  }
+  }

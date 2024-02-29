@@ -1,0 +1,31 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: visible;
+
+  }
+  #swipes{
+    margin-bottom: 100px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:auto ;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
+  
+  }
+  .swiper{
+    overflow: hidden;
+  }
+ .swiper-slide-active img{
+opacity: 1;
+ }

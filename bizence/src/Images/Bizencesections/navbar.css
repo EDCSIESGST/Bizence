@@ -1,0 +1,68 @@
+
+#Navs{
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+  
+  .nav_ul li {
+    padding: 0 0.6rem;
+  
+  }
+  nav{
+   background-color:var(--backgroundColor);
+   
+  }
+  .navbar-brand img{
+    height: 70px;
+    width: auto;
+  }
+  
+  .nav_ul a {
+    font-size: 1.05rem;
+     
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color:white;
+    font-family: var(--DefaultFont);
+  }
+  .navbar{
+    position: sticky;
+  }
+  .nav_ul li :hover{
+    color: var(--primaryColor);
+  }
+  .btn1 {
+    border: 0;
+   padding: 3%;
+    border-radius:10px;
+    width:100px;
+    height: auto;
+    color: #fff;
+    background-color:var(--primaryColor);
+    padding: 1px;
+  }
+  .navbar-toggler{
+    width: auto;
+    height: 40px;
+    background-color: var(--primaryColor);
+    
+  }
+  .navbar-toggler-icon{
+    height: 30px;
+    color:var(--primaryColor);
+    border: var(--primaryColor);
+  background-color: var(--primaryColor)
+
+  }
+  #navs button{
+    color: white;
+  }
+  .nav-link{
+    color: var(--linkColor);
+  }
+ 
+ 
+  
+  .nav-link:visited {
+    color:var(--linkColor); /* Set the color for visited links */
+  }

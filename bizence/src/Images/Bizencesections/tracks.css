@@ -1,0 +1,33 @@
+/* App.css */
+.Appes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+ .Appes .card {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px; /* Adjust margin as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-heading {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  .card-paragraph {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  

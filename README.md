@@ -1,2 +1,0 @@
-# Bizence
- Page for Bizence 

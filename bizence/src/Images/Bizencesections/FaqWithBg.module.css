@@ -1,0 +1,75 @@
+.wrapper {
+    padding-top: calc(var(--mantine-spacing-xl) * 2);
+    min-height: rem(820px);
+    
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+    color: var(--mantine-color-black);
+  }
+  
+  .title {
+    color: var(--mantine-color-white);
+    font-size: 52px;
+    
+      
+    margin-bottom: calc(var(--mantine-spacing-xl) * 1.5);
+  }
+  
+  .item {
+    background-color: #0c1d3e;
+    border-bottom: 0;
+    border-radius: var(--mantine-radius-md);
+    box-shadow: var(--mantine-shadow-lg);
+    overflow: hidden;
+  }
+  
+  .control {
+    font-size: var(--mantine-font-size-lg);
+    padding: var(--mantine-spacing-lg) var(--mantine-spacing-xl);
+    color:white;
+    border-color: wheat;
+  
+  
+  }
+  .m-4ba554d4 mantine-Accordion-content {
+    color: aliceblue;
+  }
+  
+  .content {
+    padding-left: var(--mantine-spacing-xl);
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .icon {
+    margin-left: var(--mantine-spacing-md);
+  }
+  
+  .gradient {
+    background-image:#0c1d3e
+  }
+  
+  .itemOpened {
+    & .icon {
+      transform: rotate(45deg);
+    }
+  }
+  .FaqWithBg_wrapper__yncue{
+    color:#a3b4d9 ;
+  }
+  
+  .button {
+    display: block;
+    margin-top: var(--mantine-spacing-md);
+  
+    @media (max-width:mantine-breakpoint-sm) {
+      display: block;
+      width: 100%;
+    }
+  }
+  @media(max-width:992px){
+    .title{
+        font-size: 24px;
+    }
+  }

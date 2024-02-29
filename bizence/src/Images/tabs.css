@@ -1,0 +1,272 @@
+.react-tabs {
+    display: flex;
+    margin: 30px 0px;
+}
+.ComInfo {
+    padding: 80px 50px;
+    background: var(--containerColor);
+    border-radius: var(--borderRadius);
+    margin-right: -100px;
+    width: 60%;
+    justify-content: center;
+}
+.CommunityInfo{
+    padding:40px;
+}
+.ComInfo h2 {
+    font-weight: 900;
+}
+.ComTabs {
+    width: 40%;
+}
+ul.react-tabs__tab-list {
+    display: grid;
+    text-align: center;
+    border: none;
+    gap: 20px;
+    padding: 50px;
+}
+.react-tabs__tab-list li {
+    background: #232D39;
+    color: #fff;
+    font-weight: 800;
+    padding: 45px;
+    border-radius: var(--borderRadius);
+    border: none;
+    font-size: 30px;
+    transition: 0.3s all !important;
+    cursor: pointer;
+    overflow: hidden !important;
+}
+.react-tabs__tab--selected {
+    background: var(--primaryColor) !important;
+    transform: translateX(20px);
+}
+
+.MembersGrid {
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.MemberProfile {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: #232D39;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.MemberProfile img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.PerksNFeatures {
+    margin: 100px 0px 80px;
+    overflow-y: hidden;
+}
+.PerksNFeatures h5 {
+margin-bottom: 50px;
+    font-weight: 600;
+    text-align: center;
+    overflow: hidden;
+    font-size: 32px;
+}
+.PerksCards {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.PerksCards h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.PerksCards p {
+    font-size: 18px;
+}
+.PerkCard {
+    background: #0F151C;
+    border-radius: var(--borderRadius);
+    padding: 50px 50px 30px;
+    transition: 0.3s all !important;
+}
+#JoinCommunity{
+    width: 100%;
+    background-color: var(--containerColor);
+ 
+}
+.Banner {
+    background: linear-gradient(90deg, rgba(59, 162, 241, 1) 1px, transparent 1px),
+                linear-gradient(180deg, rgba(59, 162, 241, 1) 1px, transparent 1px),
+                rgba(59, 162, 241, 1); 
+    background-size: 20px 20px;
+    background-position: 0 0, 0 0, 0 0;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Horizontally center */
+    position: relative;
+    overflow: hidden; 
+  }
+  .Banner::before{
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(90deg, rgba(102, 180, 236, 1)
+    2px, transparent 1px),
+    linear-gradient(0deg,   rgba(102, 180, 236, 1) 2px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none; 
+  top: 0;
+  left: 0;
+  }
+  .InnerBanner {
+    width: 60%;
+    height: 40vh;
+    background: linear-gradient(0deg, #FFDF2B, #FFDF2B);
+    border: 5px solid rgba(45, 22, 15, 1);
+    color: rgba(45, 22, 15, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  
+  
+  .InnerBanner h1 {
+    color: rgba(45, 22, 15, 1);
+    font-weight: 900;
+    font-size: 96px;
+    overflow: hidden;
+  }
+  
+  .InnerBanner p {
+    color: rgba(45, 22, 15, 1);
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    
+    .PerksCards {
+        grid-template-columns: 1fr !important;
+    }
+    .MembersGrid {
+        grid-template-columns: repeat(4,1fr) !important;
+    }
+    .react-tabs {
+        flex-direction: column-reverse !important;
+        margin: 10px;
+    }
+    .ComTabs , .ComInfo {
+        width: 100% !important;
+        text-align: center;
+    }
+    .react-tabs__tab--selected {
+        transform: translate(0px);
+    }
+    .react-tabs{
+        margin-top: 0px;
+    }
+    .PerksCards p {
+        text-align: center;
+       
+    }
+    .PerksNFeatures h5 {
+        margin-bottom: 20px;
+           font-weight: 600;
+           text-align: center;
+       }
+       .react-tabs__tab-list li {
+        background: #232D39;
+        color: #fff;
+        font-weight: 800;
+        padding: 45px;
+        border-radius: var(--borderRadius);
+        border: none;
+        font-size: 16px;
+        transition: 0.3s all !important;
+        cursor: pointer;
+        overflow: hidden !important;
+    }
+    .ComInfo h2{
+        text-align: center;
+      
+    }
+    .ComInfo p{
+        font-size: 18px;
+    }
+    .Banner {
+        position: relative; /* Required for pseudo-elements */
+     
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Horizontally center */
+      }
+      
+     
+      
+      .InnerBanner {
+        width: 80%;
+        height: 15vh;
+        background: linear-gradient(0deg, #FFDF2B, #FFDF2B);
+        border: 5px solid rgba(45, 22, 15, 1);
+        color: rgba(45, 22, 15, 1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Horizontally center */
+        justify-content: center; /* Vertically center */
+      }
+      
+      .InnerBanner h1 {
+        color: rgba(45, 22, 15, 1);
+        font-weight: 900;
+        font-size: 32px;
+        overflow: hidden;
+      }
+      
+      .InnerBanner p {
+        color: rgba(45, 22, 15, 1);
+        font-weight: 500;
+        font-size: 12px;
+      }
+      
+   
+
+     
+}
+@media (max-width: 600px){
+    .ComInfo h2{
+        font-size: 28px;
+    }
+    .ComInfo p{
+        font-size:16px ;
+    }
+    
+}

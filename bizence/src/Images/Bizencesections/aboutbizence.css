@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap');
+#bannerimg{
+    width: 100%;
+  
+    }
+     #banner {
+        padding-top: 0%;
+     }
+     #aboutimg img{
+      width: 400px;
+     }
+     
+     #banner h1{
+font-family: "Sorts Mill Goudy", serif;
+font-weight: 400;
+background: #ECECEB;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 192px;
+     }
+     #banner h1:hover{
+      background: #FFFFFF;
+      -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+     }
+     #banner p{
+      font-family: "Fanwood Text", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+     }
+    .button-9 {
+        appearance: button;
+        backface-visibility: hidden;
+        background-color:var(--buttoncolor);
+        border-radius: 6px;
+        border-width: 0;
+        box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        font-family: var(--DefaultFont);
+        font-size: 100%;
+        height: 44px;
+        line-height: 1.15;
+        margin: 12px 0 0;
+        outline: none;
+        overflow: hidden;
+        padding: 0 25px;
+        position: relative;
+        text-align: center;
+        text-transform: none;
+        transform: translateZ(0);
+        transition: all .2s,box-shadow .08s ease-in;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 200PX;
+      }
+      #Whatsappbut{
+        padding-top: 0%;
+      }
+      
+      #Councilphoto h1{
+        text-align: center;
+      }
+      .button-9:disabled {
+        cursor: default;
+      }
+      
+      .button-9:focus {
+        box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+      }
+      #Councilphoto img{
+        height: auto;
+        width: 90%;
+        border-radius: 2%;
+      }
+    .video-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+     ;
+    }
+    
+    Video{
+        padding-top: 0px;
+        border-radius: var(--borderRadius);
+    
+    }
+    #About{
+        display: flex;
+        flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap:10%;
+    }
+      button{
+        background-color:var(--buttoncolor) ;
+        text-align: center;
+     
+        color: #fff;
+        font-family: var(--DefaultFont);
+        font-size: 24px;
+       
+        width: 200px;
+        height: 70px;
+        border-radius: 10px;
+    border: #0668CB;
+    }
+    #Registerbutton{
+        background-color:var(--buttoncolor) ;
+        text-align: center;
+     
+        color:var(--buttonfont);
+        font-family: var(--DefaultFont);
+        font-size: 16px;
+       padding: 5px;
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+    border: #0668CB;
+    
+    }
+    #Registerbutton:hover{
+        color: var(--backgroundColor);
+    }
+    #row{
+        width: 60%;
+    
+    }
+    
+    
+    .Stat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        
+    }
+    .Stat img{
+        width: 150px;
+        height: 150px;
+    }
+    .Icon{
+        padding-bottom: 10px;
+    }
+    
+    #Events{
+        display: flex;
+        flex-direction: row;
+        gap:5%;
+       
+        overflow: hidden;
+    }
+    #Currentevents{
+       background-color: var(--containerColor);
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        border-radius: 10px;
+        
+       
+       
+    }
+    #Currentevents h2{
+    text-align: center;
+    }
+    .Description{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .Upcomingevents{
+        display: flex;
+        flex-direction: row;
+        gap:8%;
+    margin-bottom: 5%;
+    padding-top: 20px;
+    height: max-content;
+       
+    }
+    
+    .Upcomingevents p{
+        font-size: var(--eventfont);
+    }
+    
+    .Eventsimg img {
+       height: 250px;
+       width: 250px;
+        height:auto;
+        border-radius: 5%;
+    }
+    
+    #Previousevents{
+        background-color: var(--containerColor);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+            text-align: center;
+        padding: 2%;
+       width: 25%;
+        
+    
+       overflow: hidden;
+    }
+    .imagecon{
+        padding-top: 20px;
+    }
+    .Eventsimg:not(:last-child){
+        margin-bottom: 20%;
+    }
+    
+    
+      #Newsletter{
+        text-align: center;
+        background-color: var(--containerColor);
+      }
+    #Newsletter h3{
+        font-size: 48px;
+        font-weight: bolder;
+    }
+    #newsletterp{
+        padding-left: 10%;
+        padding-right: 10%;
+       
+       
+    }
+    #Socials {
+        text-align: center;
+      }
+      
+      #Socials p {
+        font-size: 14px;
+        padding-top: 10px;
+      }
+      
+      .Socialcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+      }
+      
+      .indisocials {
+        background-color: var(--containerColor);
+        width: calc(20% - 5%); 
+        padding: 20px;
+        border-radius: 20px;
+        margin: 5px; 
+      }
+      
+      
+      @media screen and (min-width: 500px) and (max-width: 800px) {
+        .indisocials {
+          width: calc(50% - 5%);
+         
+        }
+        .Socialcontainer{
+            gap: 20px;
+        }
+        
+      }
+      
+     
+      @media screen and (min-width: 800px) and (max-width: 1100px) {
+        .indisocials {
+          width: calc(33.33% - 5%);
+        }
+          .Socialcontainer{
+            gap: 20px;
+        } /* 3 items in one row */
+        
+      }
+      
+      
+      @media screen and (min-width: 1100px) {
+        .indisocials {
+          width: calc(20% - 5%); 
+        }
+      }
+      @media screen and (max-width: 499px) {
+        .indisocials {
+          width: 200px;
+        }
+        .Socialcontainer{
+            gap: 20px;
+        }
+      }
+      
+      
+      
+    /* Two above and two below for screens between 768px and 992px (inclusive) */
+    
+    @media (max-width: 992px){
+    section{
+       padding-top: 5%;
+       padding-bottom: 10%;
+    }
+        #Statistics{
+        padding-top: 5%;
+    }
+        #About{
+            display: flex;
+            flex-direction:column;
+      padding: 0;
+        gap:10%;
+    align-items: center;
+    text-align: justify;
+        }
+        
+        #row{
+            width: 80%;
+            text-align: center;
+         
+        
+        }
+        #row p{
+            font-size: 18px;
+        }
+        #aboutimg{
+            padding-top: 3%;
+        }
+       
+        
+    
+    
+    }
+    /* Especially for stats */
+    @media (min-width: 768px) and (max-width: 992px) {
+        .StatsGrid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .Stat {
+            width: calc(50% - 20px); /* Two items per row with spacing */
+            margin: 10px;
+        }
+       
+    }
+    
+    /* Four in a row for screens wider than 992px */
+    @media (min-width: 992px) {
+        .StatsGrid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    
+        .Stat {
+            width: calc(25% - 20px); /* Four items per row with spacing */
+            margin: 10px;
+        }
+        video{
+            height: 700px;
+        }
+        
+    }
+    /* For events */
+    @media (max-width: 1200px)
+    {
+    #Events{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+        align-items: center;
+        padding: 2%;
+    
+    }
+    
+    #Currentevents{
+       background-color: var(--containerColor);
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        border-radius: 10px;
+    
+       
+    }
+    .Description{
+        width: 90%;
+    }
+    .Upcomingevents{
+        display: flex;
+        flex-direction: column;
+       padding-bottom: 30px;
+    margin-bottom: 5%;
+    align-items: center;
+    text-align: center;
+       
+    }
+    
+    .Upcomingevents p{
+        font-size: var(--eventfont);
+    }
+    
+    .Eventsimg img {
+        width: auto;
+        height: 250px;
+        border-radius: 5%;
+    }
+    #Previousevents img{
+    height: auto;
+    width: auto;
+    }
+    
+    #Previousevents{
+        background-color: var(--containerColor);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        text-align: center;
+        padding: 2%;
+     width: 90%;
+       
+    
+       
+    }
+    .Eventsimg:not(:last-child){
+        margin-bottom: 10%;
+    }
+    
+    }
+    @media (max-width: 576px) {
+      #banner h1{
+        font-family: "Sorts Mill Goudy", serif;
+        font-weight: 400;
+        background: linear-gradient(90deg, #81bfe4, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 64px;
+             }
+             #banner p{
+              font-family: "Fanwood Text", serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 24px;
+             }
+          
+    }
+    @media screen and (min-width: 576px) and (max-width: 1000px){
+      #banner h1{
+        font-family: "Sorts Mill Goudy", serif;
+        font-weight: 400;
+        background: linear-gradient(90deg, #81bfe4, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 128px;
+             }
+             #banner p{
+              font-family: "Fanwood Text", serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 32px;
+             }
+    }

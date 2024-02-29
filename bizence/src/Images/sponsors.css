@@ -1,0 +1,160 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+ #sponsors h3{
+	text-align: center;
+	color :whitesmoke;
+font-size: 16PX;
+padding: 20PX;}
+
+#sponsors h6{
+font-size: 8px;
+color: bisque;
+list-style: none;
+padding:4px;
+}
+#sponsors{
+  height: auto;
+  overflow-y: hidden;
+}
+#respon img{
+height: auto;
+max-width: 175px;
+}
+.card-panel{
+ 
+transition: box-shadow .25s;
+  padding: 20px;
+ 
+  border-radius: 2px;
+background-color: var(--containerColor);
+}
+#eventsp img{
+  height: 150px;
+  max-width: 300px;
+}
+
+.hoverable:hover {
+  transition: box-shadow .25s;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+ #sponsors .container {
+  margin: 0 auto;
+  max-width: 1280px;
+ 
+  width: 90%;
+; }
+#sponsors{
+
+  margin: 0;
+  padding: 2px;
+}
+#liljoy img{
+  padding-top: 20px;
+}
+
+@media only screen and (min-width : 768px) {
+ #sponsors .container {
+    width: 85%; } }
+   #sponsors h3{
+      text-align: center;
+      color :whitesmoke;
+    font-size: 24PX;}
+    #sponsors h6{
+      font-size: 10px;
+      color: bisque;
+      list-style: none;
+      padding:4px;
+      }
+      #liljoy img{
+        padding-top: 50px;
+      }
+
+
+
+@media only screen and (min-width : 992px) {
+ #sponsors .container {
+    width: 70%; } }
+
+ #sponsors.container .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem; }
+
+#sponsors .row {
+  text-align: center;
+margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  
+.row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem; }
+   
+    .row .col.s4 {
+      width: 33.33333%;
+      margin-left: 0; }
+    .row .col.offset-s4 {
+      margin-left: 33.33333%; }
+    .row .col.pull-s4 {
+      right: 33.33333%; }
+    .row .col.push-s4 {
+      left: 33.33333%; }
+
+
+
+img.logo {
+  width:auto;
+}
+#sponsors h6{
+  font-size: 16px;
+  color: bisque;
+  list-style: none;
+  padding:4px;
+  }
+#sponsors h3{
+	text-align: center;
+	color :whitesmoke;
+font-size: 32PX;}
+
+img.responsive-img {
+  max-width: 150px;
+  height: auto; }
+  @media (max-width:768px){
+    #sponsors h3{
+      text-align: center;
+      color :whitesmoke;
+    font-size: 16PX;
+    padding: 20PX;}
+    
+    #sponsors h6{
+    font-size: 12px;
+    color: bisque;
+    list-style: none;
+    padding:4px;
+    }
+    #liljoy img{
+      padding-top: 25px;
+    }
+    
+  }
+  @media (max-width:576px){
+    img.responsive-img {
+      width: 80px;
+      height: auto;
+    }
+    #eventsp img{
+      height: 100px;
+      width: auto;
+    }
+    #mainevent h6{
+      font-size: 12px;
+    }
+
+  }
