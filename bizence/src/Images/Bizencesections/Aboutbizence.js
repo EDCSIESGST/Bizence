@@ -25,7 +25,7 @@ const Aboutbizence = () => {
         <div id="row" data-aos="fade-right" style={{paddingTop:'5%'}}>
           <h2 >What is Bizence?</h2>
           <br />
-          <p >Initiated in 2010, the Entrepreneurship Cell of SIESGST is a non-profit student organization dedicated to promoting the spirit of entrepreneurship among the students of India. To achieve this, we conduct events which help spread our message. We also have an incubation team which helps advise and foster the ideas of students who dream of building their own startup.</p>
+          <p >It is a national level Business plan hackathon competition. It’s an experience which aims to incentivize creative thinking and promote entrepreneurship culture by providing workshops, hands-on experiences ending with a B plan competition where CEO’s and Founders of various companies judge the ideas of the participants.</p>
           
         </div>
         <div id ="aboutimg" data-aos="fade-left">
