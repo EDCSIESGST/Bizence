@@ -4,7 +4,7 @@ import "./aboutbizence.css";
 import CountdownTimer from './Countdowntimer';
 import Navbaar from './navbar';
 import { Link } from 'react-router-dom';
-import ab from "./Bizenceimg/_1053e401-e67e-4fab-9996-9725e84f12a2-removebg-preview.png"
+import ab from "./Bizenceimg/About.png"
 const Aboutbizence = () => {
   const eventDate = new Date('2024-03-23T00:01:00');
 
