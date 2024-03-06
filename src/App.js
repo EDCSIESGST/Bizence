@@ -13,7 +13,7 @@ import CardFlip from './Images/Bizencesections/High';
 import 'aos/dist/aos.css';
 import High from './Images/Bizencesections/High';
 import Footer from './Images/Bizencesections/footer';
-import "../../bizence/src/Images/Bizencesections/aboutbizence.css"
+
 import SponsorSection from './Images/Bizencesections/Sponsors';
 import Aboutbizence from './Images/Bizencesections/Aboutbizence';
 import PrizesSection from './Images/Bizencesections/prizes';
