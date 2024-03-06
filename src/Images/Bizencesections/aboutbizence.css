@@ -433,9 +433,9 @@ overflow: hidden;
       #banner h1{
         font-family: "Sorts Mill Goudy", serif;
         font-weight: 400;
-        background: linear-gradient(90deg, #81bfe4, #ffffff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background: #ECECEB;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
         font-size: 64px;
              }
              #banner p{
@@ -450,10 +450,10 @@ overflow: hidden;
       #banner h1{
         font-family: "Sorts Mill Goudy", serif;
         font-weight: 400;
-        background: linear-gradient(90deg, #81bfe4, #ffffff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 128px;
+        background: #ECECEB;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+        font-size: 124px;
              }
              #banner p{
               font-family: "Fanwood Text", serif;
@@ -461,4 +461,9 @@ overflow: hidden;
           font-style: normal;
           font-size: 32px;
              }
+    }
+    @media screen and (min-width: 1000px) and (max-width: 1400px){
+      #banner h1{
+       font-size: 150px;
+      }
     }

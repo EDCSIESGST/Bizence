@@ -1,7 +1,7 @@
 import React from 'react';
 import './tracks.css'; // Import your CSS file for styling
-import prot from "./Bizenceimg/pro.png.png"
-import idea from "./Bizenceimg/innov.png.png"
+import prot from "./Bizenceimg/pro.png"
+import idea from "./Bizenceimg/innov.png"
 // Define your card component
 const Card = ({ imageSrc, heading, paragraph }) => (
   <div className="card">
