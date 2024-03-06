@@ -43,7 +43,7 @@ export function FaqWithBg() {
 
           <Accordion.Item className={classes.item} value="credit-card">
             <Accordion.Control>What is the entry fee?</Accordion.Control>
-            <Accordion.Panel style={{color:'white'}}>Entry fees will be 150/- per person</Accordion.Panel>
+            <Accordion.Panel style={{color:'white'}}>Entry fees will be 150/- per Person</Accordion.Panel>
           </Accordion.Item>
 
           <Accordion.Item className={classes.item} value="payment">
