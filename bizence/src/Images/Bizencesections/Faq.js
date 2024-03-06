@@ -3,7 +3,7 @@ import { MDBAccordion, MDBAccordionItem, MDBContainer } from "mdb-react-ui-kit";
 
 export default function faq() {
   return (
-    <MDBContainer className="mt-5" style={{maxWidth: '1000px'}}>
+    <MDBContainer className="mt-5" style={{maxWidth: '1000px'}} id="fae">
       <MDBAccordion alwaysOpen initialActive={1}>
         <MDBAccordionItem collapseId={1} headerTitle="Question #1">
           <strong>This is the first item's accordion body.</strong> It is shown

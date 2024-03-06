@@ -1,68 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--backgroundcolor);
+  color: #fff;
+}
 
-#Navs{
-    overflow-x: hidden;
-    overflow: hidden;
-  }
-  
-  .nav_ul li {
-    padding: 0 0.6rem;
-  
-  }
-  nav{
-   background-color:var(--backgroundColor);
-   
-  }
-  .navbar-brand img{
-    height: 70px;
-    width: auto;
-  }
-  
-  .nav_ul a {
-    font-size: 1.05rem;
-     
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    color:white;
-    font-family: var(--DefaultFont);
-  }
+.logo img {
+  height: 40px; /* Adjust the height of your logo */
+}
+
+.menu-toggle {
+  display: none; /* Hide the toggle button by default */
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
   .navbar{
-    position: sticky;
+    background-color: var(--containerColor);
   }
-  .nav_ul li :hover{
-    color: var(--primaryColor);
-  }
-  .btn1 {
-    border: 0;
-   padding: 3%;
-    border-radius:10px;
-    width:100px;
-    height: auto;
-    color: #fff;
-    background-color:var(--primaryColor);
-    padding: 1px;
-  }
-  .navbar-toggler{
-    width: auto;
-    height: 40px;
-    background-color: var(--primaryColor);
+  .menu {
+    display: none; /* Hide the menu by default on small screens */
+    flex-direction: column;
+    background-color:var(--containerColor);
+    padding: 20px;
+    position: absolute;
+    top: 60px; /* Adjust the top position as needed */
+    left: 0;
+    width: 100%;
+   
     
   }
-  .navbar-toggler-icon{
-    height: 30px;
-    color:var(--primaryColor);
-    border: var(--primaryColor);
-  background-color: var(--primaryColor)
 
+  .menu.open {
+    display: flex;
+text-align: center;
+    z-index: 999;
+    gap: 10px; /* Show the menu when open */
   }
-  #navs button{
-    color: white;
+
+  .menu-toggle {
+    display: block; /* Show the toggle button on small screens */
   }
-  .nav-link{
-    color: var(--linkColor);
-  }
- 
- 
-  
-  .nav-link:visited {
-    color:var(--linkColor); /* Set the color for visited links */
-  }
+}

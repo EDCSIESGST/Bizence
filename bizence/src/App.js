@@ -34,13 +34,13 @@ import Navbar from './Images/Bizencesections/navbar';
   {/* <navbar/> */}
       
       <Aboutbizence/>
-     {/* <TrackEvent/> */}
+     <TrackEvent/> 
  
    <Timeline/>
    <Carousel/>
 <CardFlip/>
    <PrizesSection/>
-   <SponsorSection/>
+   {/* <SponsorSection/> */}
 
 <FaqWithBg/>
    <Footer/>

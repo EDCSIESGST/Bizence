@@ -29,3 +29,8 @@
  .swiper-slide-active img{
 opacity: 1;
  }
+@media (max-width:992px) {
+ #swipes{
+  display: none;
+ } 
+}

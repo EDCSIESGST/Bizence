@@ -61,14 +61,14 @@ class PricingSection extends React.Component {
     return (
       <section id='pricing-section'>
       
-        <h2>30,000 Prize Pool 🏆and 20,000 Goodies🎁 </h2>
+        <h2>Prize Pool worth Rs 80,000 🏆🎁 </h2>
       
        
         {/* <div className="track-selection">
           <button onClick={() => this.handleTrackChange('track1')}>Track 1</button>
           <button onClick={() => this.handleTrackChange('track2')}>Track 2</button>
         </div> */}
-        <div className="pricing-cards">
+        {/* <div className="pricing-cards">
           {pricingData.map((card, index) => (
             <div className={`pricing-card ${activeCard === index ? 'active' : ''}`} key={index} onMouseOver={() => this.handleMouseOver(index)}>
               <div className="card">
@@ -86,7 +86,7 @@ class PricingSection extends React.Component {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
     );
   }

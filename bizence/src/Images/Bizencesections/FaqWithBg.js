@@ -9,7 +9,7 @@ export function FaqWithBg() {
   return (
     <div className={classes.wrapper}>
       <Container size="sm">
-        <Title ta="center" className={classes.title}>
+        <Title ta="center" className={classes.title} id='fae'>
           Frequently Asked Questions
         </Title>
 

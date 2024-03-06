@@ -18,9 +18,9 @@ function TimelineItem(props) {
 function Timeline() {
   return (
     <div>
-      <h1 className='head'>Timeline</h1>
+      <h1 className='head' id='times'>Timeline</h1>
       <br></br>
-      <div className="timeline">
+      <div className="timeline" >
       
         <TimelineItem side="left" title="Kick Off Event " content="3:30pm - 5:30pm" paras="BIZENCE'24 kicks off with a grand inauguration, setting the stage for two days of innovation."animation="fade-right" delay="500" duration="500"/>
       
