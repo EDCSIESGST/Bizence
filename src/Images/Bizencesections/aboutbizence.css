@@ -15,7 +15,7 @@ font-weight: 400;
 background: #ECECEB;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-font-size: 164px;
+font-size: 154px;
 overflow: hidden;
      }
      #banner h1:hover{
@@ -462,9 +462,9 @@ overflow: hidden;
           font-size: 32px;
              }
     }
-    @media screen and (min-width: 1000px) and (max-width: 1400px){
+    @media screen and (min-width: 1000px) and (max-width: 1500px){
       #banner h1{
-       font-size: 150px;
+       font-size: 90px;
       }
       
     }
