@@ -453,7 +453,7 @@ overflow: hidden;
         background: #ECECEB;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-        font-size: 124px;
+        font-size: 90px;
              }
              #banner p{
               font-family: "Fanwood Text", serif;
@@ -464,7 +464,7 @@ overflow: hidden;
     }
     @media screen and (min-width: 1000px) and (max-width: 1500px){
       #banner h1{
-       font-size: 90px;
+       font-size: 110px;
       }
       
     }
