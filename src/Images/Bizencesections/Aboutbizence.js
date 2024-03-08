@@ -13,12 +13,12 @@ const Aboutbizence = () => {
     <div>
       <Navbaar/>
       
-      <section id="banner" style={{ position: 'relative', height: '90vh', overflow: 'hidden' }}>
-  <img id='bannerimg' src={Banner} alt="Banner" style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: 'auto', objectFit: 'cover' }} />
-  <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white', zIndex: '1', width: '90%' }}>
+      <section id="banner" style={{ position: 'relative', height: '90vh', marginTop:'',overflow: 'hidden' }}>
+  <img id='bannerimg' src={Banner} alt="Banner" style={{ position: 'absolute', top: '0', left: '0', width: '100%', objectFit: 'cover' ,height:'100%' }} />
+  <div style={{position: 'relative', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white', zIndex: '1', width: '90%'}}>
     <br/>
    
-    <h1>BIZENCE</h1>
+    <h1 style={{ }} >BIZENCE</h1>
     <p style={{ margin: '0' }}>First ever 24hrs Business hackathon in Navi Mumbai</p>
     <CountdownTimer />
     <a href="https://unstop.com/p/bizence-2024-national-level-business-hackathon-entrepreneurship-cell-sies-graduate-school-of-technology-921398?lb=RbA3juDG" target='_blank'> <button style={{ marginBottom:'5%',height: '40px', fontSize: '20px',overflow:'hidden' }}>Apply Via Unstop</button> </a>
