@@ -28,6 +28,7 @@ overflow: hidden;
   font-weight: 500;
   font-style: normal;
   font-size: 24px;
+  color: #ECECEB;
      }
     .button-9 {
         appearance: button;
@@ -444,8 +445,14 @@ overflow: hidden;
           font-style: normal;
           font-size: 24px;
              }
-          
+             #aboutimg img{
+              width: 80%;
+              align-self: center;
+            display: block;
+          margin-left: auto;
+          margin-right: auto;
     }
+  }
     @media screen and (min-width: 576px) and (max-width: 1000px){
       #banner h1{
         font-family: "Sorts Mill Goudy", serif;

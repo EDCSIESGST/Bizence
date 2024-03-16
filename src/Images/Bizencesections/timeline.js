@@ -28,7 +28,7 @@ function Timeline() {
        
         <TimelineItem side="left" title="Build " content="7:30pm -10:30am" animation="fade-left" delay="500" paras="You can work and build Bmc upon your idea during this phase" duration="500"/>
        
-        <TimelineItem side="right" title="Final Pitch " content="10:30pm -4:00pm" animation="fade-left" paras ="Present your project in the final pitch, where you will impress the judges and audience with your vision and execution"delay="500" duration="500"/>
+        <TimelineItem side="right" title="Final Pitch " content="10:30am -4:00pm" animation="fade-left" paras ="Present your project in the final pitch, where you will impress the judges and audience with your vision and execution"delay="500" duration="500"/>
         <TimelineItem side="left" title="Panel Discussion " content="4:30pm -5:30pm" paras="Participate in a thought-provoking panel discussion on current trends and future prospects in the industry." animation="fade-right" delay="500" duration="500"/>
         <TimelineItem side="right" title="Winners and Felicitation" content="5:30pm" paras="Celebrate your achievements and foster community in the memorable closing ceremony" animation="fade-left" delay="500" duration="500"/>
       </div>
