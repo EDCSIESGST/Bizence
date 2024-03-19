@@ -29,14 +29,16 @@ const Countdown = () => {
 		<div className='countdown'>
 		
 			<div className='content'>
-				{Object.entries(timeLeft).map((el) => {
+				{Object.entries(timeLeft).map((el, index) => {
 					const label = el[0];
 					const value = el[1];
 					return (
 						<div className='box' key={label}>
 							<div className='value'>
 								<span>{value}</span>
+								{index < 3 && ":"}
 							</div>
+							
 							<span className='label'> {label} </span>
 						</div>
 					);
@@ -47,3 +49,4 @@ const Countdown = () => {
 };
 
 export default Countdown;
+

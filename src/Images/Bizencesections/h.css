@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:40px;
+  gap:30px;
   
 }
 
@@ -39,4 +39,8 @@
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+
+}
+.bt{
+  margin-bottom: 10px;
 }

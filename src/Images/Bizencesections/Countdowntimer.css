@@ -11,7 +11,10 @@
 	margin-bottom: 20px;
 	font-size: 30px;
 }
-
+.colon{
+	height: 24px;
+	margin: auto;
+}
 .countdown{
  height: 300px;
 
