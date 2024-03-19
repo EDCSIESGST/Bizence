@@ -32,13 +32,13 @@ function Highlights() {
                         <div className="card" onClick={() => handleFlip(index)}>
                             <div className="card-content" style={{textAlign: 'center'}}>
                                 <h3>{field.title}</h3>
-                                <button className="small-button">Flip</button>
+                                <button className="small-button">Learn more</button>
                             </div>
                         </div>
                         <div className="card" onClick={() => handleFlip(index)}>
                             <div className="card-content" style={{textAlign:'center'}}>
                                 <p style={{fontSize:'14px',padding:'4px'}}>{field.content}</p>
-                               <div className="bt" ><button className="small-button">Learn More</button></div>
+                               <div className="bt" ><button className="small-button">Back</button></div>
                             </div>
                         </div>
                     </ReactCardFlip>
